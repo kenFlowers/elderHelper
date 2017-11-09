@@ -1,0 +1,84 @@
+/* body {
+    font: 14px/2 Georgia, serif;
+    color: white;
+} */
+
+h1,
+h2 {
+    line-height: 1.2;
+    font-size: 39px;
+}
+
+
+/* p,
+ul,
+h1 {
+    margin: 0 0 1rem 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+    color: white;
+} */
+
+.jumbotron {
+    background-color: transparent;
+    margin: 250px;
+    padding: 50px;
+    text-shadow: 2px 2px grey;
+}
+
+#welcome,
+#loginPage {
+    height: 100vh;
+}
+
+#signUpModal,
+#myModal {
+    border-radius: 6px;
+}
+
+.modal-header,
+.close {
+    background-color: #a0a3cd;
+    color: white !important;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 6px;
+}
+
+.form-group {
+    font-size: 22px;
+}
+
+.btn {
+    background-color: #a0a3cd;
+}
+
+.nav {
+    width: 100%;
+}
+
+
+/* #welcome {
+    background-color: green;
+    z-index: -1;
+}
+
+#loginPage {
+    background-color: blue;
+    z-index: -1;
+}
+
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: white !important;
+    transition-duration: 0.2s;
+} */
