@@ -12,18 +12,16 @@
 </head>
 
 <body>
+
     <div id='welcome'>
         <div class='row'>
             <div class='col-md-12'>
-                <div style='display:none;'>
-                    <h2 id="one">Section One</h2>
-                </div>
                 <div class='jumbotron text-center' id="top">
                     <h1>ElderHelper</h1>
                     <h2>Welcome to the first thing with stuff thats for your old self.</h2>
                     <br>
-                    <button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
-                    <button type="button" class="btn btn-default btn-lg" id="signUpBtn">Sign Up</button>
+                    <button type="button" class="btn btn-default btn-info btn-lg" id="myBtn">Login</button>
+                    <button type="button" class="btn btn-default btn-info btn-lg" id="signUpBtn">Sign Up</button>
                 </div>
             </div>
         </div>
@@ -46,17 +44,14 @@
                     </div>
                     <form role="form">
                         <div class="form-group">
-                            <label for="usrname">Username</label>
-                            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                            <label>Phone number</label>
+                            <input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd" placeholder="(123)-555-7777">
                         </div>
                         <div class="form-group">
                             <label for="psw">Password</label>
                             <input type="text" class="form-control" id="psw" placeholder="Enter password">
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" value="" checked>Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-success btn-block">Login</button>
+                        <button type="submit" class="btn btn-info btn-block">Log In</button>
                     </form>
                 </div>
             </div>
@@ -89,27 +84,19 @@
                         </div>
                         <div class="form-group">
                             <label>Phone number</label>
-                            <input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd" placeholder="(123)-555-777">
-                        </div>
-                        <div class="form-group">
-                            <label>E-mail</label>
-                            <input type="text" class="form-control" id="email" placeholder="JohnDoe@gmail.com">
+                            <input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd" placeholder="(123)-555-7777">
                         </div>
                         <div class="form-group">
                             <label>Password</label>
                             <input type="text" class="form-control" id="passw" placeholder="Password">
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" value="" checked>Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                        <button type="submit" class="btn btn-info btn-block">Sign Up</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
     <!-- PAGE WRAP -->
-    </div>
     <!-- END CONTAINER DIV -->
     <script>
         $(document).ready(function() {
