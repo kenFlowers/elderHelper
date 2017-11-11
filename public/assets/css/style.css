@@ -1,37 +1,56 @@
-/* body {
-    font: 14px/2 Georgia, serif;
-    color: white;
-}
+/* #welcomeB {
+    background-color: red;
+} */
 
 h1,
 h2 {
     line-height: 1.2;
+    font-size: 39px;
 }
 
-p,
-ul,
-h1 {
-    margin: 0 0 1rem 0;
-    outline: none;
-}
-
-a {
-    text-decoration: none !important;
-    outline: none !important;
-    color: white;
-} */
-
-.jumbotron {
+#top {
     background-color: transparent;
     margin: 250px;
     padding: 50px;
-    text-shadow: 2px 2px grey;
 }
 
-#welcome,
-#loginPage {
-    height: 100vh;
+#survey {
+    background-color: #a2a2ac;
 }
+
+#welcome {
+    height: 100vh;
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+}
+
+#signUpModal,
+#myModal {
+    border-radius: 6px;
+}
+
+.modal-header,
+.close {
+    background-color: #14c0f2;
+    color: white !important;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 6px;
+}
+
+.form-group {
+    font-size: 22px;
+}
+
+.active {
+    background-color: #f1b517 !important;
+}
+
+
+/* .btn {
+    background-color: #a0a3cd;
+} */
+
 
 /* #welcome {
     background-color: green;
