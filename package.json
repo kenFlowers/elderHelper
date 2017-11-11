@@ -1,28 +1,29 @@
 {
-  "name": "elder",
-  "version": "1.0.0",
-  "description": "Elder Helper Application",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kenFlowers/elderHelper.git"
-  },
-  "author": "team 5",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kenFlowers/elderHelper/issues"
-  },
-  "homepage": "https://github.com/kenFlowers/elderHelper#readme",
-  "dependencies": {
-    "express": "^4.16.2",
-    "mysql2": "^1.4.2",
-    "sequelize": "^4.22.5"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
-  }
+    "name": "elder",
+    "version": "1.0.0",
+    "description": "Elder Helper Application",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kenFlowers/elderHelper.git"
+    },
+    "author": "team 5",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kenFlowers/elderHelper/issues"
+    },
+    "homepage": "https://github.com/kenFlowers/elderHelper#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "mysql2": "^1.4.2",
+        "sequelize": "^4.22.5"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1"
+    }
 }
