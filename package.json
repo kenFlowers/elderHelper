@@ -2,7 +2,7 @@
   "name": "elder",
   "version": "1.0.0",
   "description": "Elder Helper Application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha"
   },
@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/kenFlowers/elderHelper#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
     "sequelize": "^4.22.5"
   },
   "devDependencies": {
